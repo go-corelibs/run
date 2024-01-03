@@ -1,5 +1,5 @@
 [![godoc](https://img.shields.io/badge/godoc-reference-blue.svg)](https://pkg.go.dev/github.com/go-corelibs/run)
-[![codecov](https://codecov.io/gh/go-corelibs/run/graph/badge.svg?token=)](https://codecov.io/gh/go-corelibs/run)
+[![codecov](https://codecov.io/gh/go-corelibs/run/graph/badge.svg?token=YgsohUQsa2)](https://codecov.io/gh/go-corelibs/run)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-corelibs/run)](https://goreportcard.com/report/github.com/go-corelibs/run)
 
 # go-corelibs/run - Go-Curses safe exec.Command wrappers
