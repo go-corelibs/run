@@ -80,8 +80,8 @@ func Callback(options Options, stdout, stderr func(line string)) (pid int, done 
 
 	done = make(chan bool)
 	cdk.Go(func() {
-		if err = cmd.Wait(); err != nil {
-			stderr(err.Error())
+		if waitErr := cmd.Wait(); waitErr != nil {
+			stderr(waitErr.Error())
 			done <- false
 		} else {
 			done <- true
