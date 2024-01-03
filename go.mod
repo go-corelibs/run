@@ -1,4 +1,4 @@
-module github.com/go-curses/corelibs/run
+module github.com/go-corelibs/run
 
 go 1.21.0
 
