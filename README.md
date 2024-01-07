@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/go-corelibs/run/graph/badge.svg?token=YgsohUQsa2)](https://codecov.io/gh/go-corelibs/run)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-corelibs/run)](https://goreportcard.com/report/github.com/go-corelibs/run)
 
-# go-corelibs/run - Go-Curses safe exec.Command wrappers
+# run - Go-Curses safe exec.Command wrappers
 
 run is a package for running commands and updating Go-Curses based
 user interfaces with the STDOUT and STDERR of the running process.
